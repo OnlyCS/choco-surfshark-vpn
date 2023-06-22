@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<metadata>
+		<id>surfshark-vpn</id>
+		<version>4.12.0</version>
+		<owners>OnlyCS</owners>
+
+		<title>surfshark-vpn (Install)</title>
+		<authors>Surfshark B.V.</authors>
+		<projectUrl>https://surfshark.com/</projectUrl>
+		<iconUrl>https://surfshark.com/wp-content/themes/surfshark/assets/img/logos/logo.svg</iconUrl>
+		<copyright>© 2023 Surfshark. All rights reserved</copyright>
+		<licenseUrl>https://surfshark.com/terms-of-service</licenseUrl>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<tags>surfshark-vpn vpn surfshark</tags>
+		<summary>Secure your digital life</summary>
+		<description>
+			Surfshark VPN is a virtual private network service that helps users to protect their
+			online privacy and security by encrypting their internet traffic and routing it through
+			secure servers around the world. With Surfshark, users can browse the internet
+			anonymously, access geo-restricted content, and stay safe from online threats such as
+			hackers, malware, and phishing attacks. Surfshark offers easy-to-use apps for various
+			platforms, including Windows, Mac, iOS, Android, and Linux, and allows users to connect
+			an unlimited number of devices with a single subscription. It also provides features
+			like a kill switch, split tunneling, and ad-blocking to enhance the user experience.
+		</description>
+		<releaseNotes>https://downloads.surfshark.com/windows/meta/windows-changelog.txt</releaseNotes>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
